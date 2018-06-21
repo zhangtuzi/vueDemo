@@ -1,6 +1,7 @@
 <template>
   <div id="enterComponent" class="hello">
     <!-- 头部导航切换部分 -->
+    <div style="width:100%;height:0.5rem;line-height:0.5rem;font-size:0.3rem;">兔子出品</div>
     <header class="top_nav">
         <ul>
             <li v-bind:class="{active_line:currentActiveIndex==1}" @click="changeTab(1)">首页</li>
@@ -33,12 +34,12 @@
               </li>
               <div class="clrDom"></div>
           </ul>
-        </li> 
+        </li>
       </ul>
       <yh-error-tip v-show="isMenuShowError" v-bind:errorMessage2="errorMessage"></yh-error-tip>
     </div>
     <yh-loading v-else></yh-loading>
-    
+
     <!-- 切换省份弹层 -->
     <province-select  v-bind:provinceName="currentProvinceName" v-show="isProvinceStatus"
         v-on:provinceBack="backProvinceName" v-on:provinceClose="provinceTcClose"></province-select>
