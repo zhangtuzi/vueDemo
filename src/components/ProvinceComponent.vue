@@ -11,14 +11,14 @@
                     A<br>|<br>G
                 </div>
                 <ul class="dq_r">
-                    <li class="li5" @click="provinceSelect('北京','011')" v-bind:class="{provinceBg:porvince=='北京'}">北京</li>
-                    <li class="li5" @click="provinceSelect('安徽','030')" v-bind:class="{provinceBg:porvince=='安徽'}">安徽</li>
-                    <li class="li5" @click="provinceSelect('重庆','083')" v-bind:class="{provinceBg:porvince=='重庆'}">重庆</li>
-                    <li class="li5" @click="provinceSelect('福建','038')" v-bind:class="{provinceBg:porvince=='福建'}">福建</li>
-                    <li class="li5" @click="provinceSelect('广东','051')" v-bind:class="{provinceBg:porvince=='广东'}">广东</li>
-                    <li class="li5" @click="provinceSelect('甘肃','087')" v-bind:class="{provinceBg:porvince=='甘肃'}">甘肃</li>
-                    <li class="li5" @click="provinceSelect('广西','059')" v-bind:class="{provinceBg:porvince=='广西'}">广西</li>
-                    <li class="li5" @click="provinceSelect('贵州','085')" v-bind:class="{provinceBg:porvince=='贵州'}">贵州</li>
+                    <li class="li5" @click="provinceSelect('北京','000')" v-bind:class="{provinceBg:porvince=='北京'}">北京</li>
+                    <li class="li5" @click="provinceSelect('安徽','000')" v-bind:class="{provinceBg:porvince=='安徽'}">安徽</li>
+                    <li class="li5" @click="provinceSelect('重庆','000')" v-bind:class="{provinceBg:porvince=='重庆'}">重庆</li>
+                    <li class="li5" @click="provinceSelect('福建','000')" v-bind:class="{provinceBg:porvince=='福建'}">福建</li>
+                    <li class="li5" @click="provinceSelect('广东','000')" v-bind:class="{provinceBg:porvince=='广东'}">广东</li>
+                    <li class="li5" @click="provinceSelect('甘肃','000')" v-bind:class="{provinceBg:porvince=='甘肃'}">甘肃</li>
+                    <li class="li5" @click="provinceSelect('广西','000')" v-bind:class="{provinceBg:porvince=='广西'}">广西</li>
+                    <li class="li5" @click="provinceSelect('贵州','000')" v-bind:class="{provinceBg:porvince=='贵州'}">贵州</li>
                 </ul>
             </div>
             <div class="dq_mes">
@@ -26,15 +26,15 @@
                     H<br>|<br>J
                 </div>
                 <ul class="dq_r">
-                    <li class="li5" @click="provinceSelect('湖北','071')" v-bind:class="{provinceBg:porvince=='湖北'}">湖北</li>
-                    <li class="li5" @click="provinceSelect('湖南','074')" v-bind:class="{provinceBg:porvince=='湖南'}">湖南</li>
-                    <li class="li5" @click="provinceSelect('河北','018')" v-bind:class="{provinceBg:porvince=='河北'}">河北</li>
-                    <li class="li5" @click="provinceSelect('河南','076')" v-bind:class="{provinceBg:porvince=='河南'}">河南</li>
-                    <li class="li5" @click="provinceSelect('海南','050')" v-bind:class="{provinceBg:porvince=='海南'}">海南</li>
-                    <li class="li5" @click="provinceSelect('江苏','034')" v-bind:class="{provinceBg:porvince=='江苏'}">江苏</li>
-                    <li class="li5" @click="provinceSelect('吉林','090')" v-bind:class="{provinceBg:porvince=='吉林'}">吉林</li>
-                    <li class="li5" @click="provinceSelect('江西','075')" v-bind:class="{provinceBg:porvince=='江西'}">江西</li>
-                    <li class="li5" @click="provinceSelect('黑龙江','097')" v-bind:class="{provinceBg:porvince=='黑龙江'}">黑龙江</li>
+                    <li class="li5" @click="provinceSelect('湖北','000')" v-bind:class="{provinceBg:porvince=='湖北'}">湖北</li>
+                    <li class="li5" @click="provinceSelect('湖南','000')" v-bind:class="{provinceBg:porvince=='湖南'}">湖南</li>
+                    <li class="li5" @click="provinceSelect('河北','000')" v-bind:class="{provinceBg:porvince=='河北'}">河北</li>
+                    <li class="li5" @click="provinceSelect('河南','000')" v-bind:class="{provinceBg:porvince=='河南'}">河南</li>
+                    <li class="li5" @click="provinceSelect('海南','000')" v-bind:class="{provinceBg:porvince=='海南'}">海南</li>
+                    <li class="li5" @click="provinceSelect('江苏','000')" v-bind:class="{provinceBg:porvince=='江苏'}">江苏</li>
+                    <li class="li5" @click="provinceSelect('吉林','000')" v-bind:class="{provinceBg:porvince=='吉林'}">吉林</li>
+                    <li class="li5" @click="provinceSelect('江西','000')" v-bind:class="{provinceBg:porvince=='江西'}">江西</li>
+                    <li class="li5" @click="provinceSelect('黑龙江','000')" v-bind:class="{provinceBg:porvince=='黑龙江'}">黑龙江</li>
                 </ul>
             </div>
             <div class="dq_mes">
@@ -42,15 +42,15 @@
                     L<br>|<br>S
                 </div>
                 <ul class="dq_r">
-                    <li class="li5" @click="provinceSelect('辽宁','091')" v-bind:class="{provinceBg:porvince=='辽宁'}">辽宁</li>
-                    <li class="li5" @click="provinceSelect('宁夏','088')" v-bind:class="{provinceBg:porvince=='宁夏'}">宁夏</li>
-                    <li class="li5" @click="provinceSelect('青海','070')" v-bind:class="{provinceBg:porvince=='青海'}">青海</li>
-                    <li class="li5" @click="provinceSelect('山东','017')" v-bind:class="{provinceBg:porvince=='山东'}">山东</li>
-                    <li class="li5" @click="provinceSelect('上海','031')" v-bind:class="{provinceBg:porvince=='上海'}">上海</li>
-                    <li class="li5" @click="provinceSelect('山西','019')" v-bind:class="{provinceBg:porvince=='山西'}">山西</li>
-                    <li class="li5" @click="provinceSelect('陕西','084')" v-bind:class="{provinceBg:porvince=='陕西'}">陕西</li>
-                    <li class="li5" @click="provinceSelect('四川','081')" v-bind:class="{provinceBg:porvince=='四川'}">四川</li>
-                    <li class="li5" @click="provinceSelect('内蒙古','010')" v-bind:class="{provinceBg:porvince=='内蒙古'}">内蒙古</li>
+                    <li class="li5" @click="provinceSelect('辽宁','000')" v-bind:class="{provinceBg:porvince=='辽宁'}">辽宁</li>
+                    <li class="li5" @click="provinceSelect('宁夏','000')" v-bind:class="{provinceBg:porvince=='宁夏'}">宁夏</li>
+                    <li class="li5" @click="provinceSelect('青海','000')" v-bind:class="{provinceBg:porvince=='青海'}">青海</li>
+                    <li class="li5" @click="provinceSelect('山东','000')" v-bind:class="{provinceBg:porvince=='山东'}">山东</li>
+                    <li class="li5" @click="provinceSelect('上海','000')" v-bind:class="{provinceBg:porvince=='上海'}">上海</li>
+                    <li class="li5" @click="provinceSelect('山西','000')" v-bind:class="{provinceBg:porvince=='山西'}">山西</li>
+                    <li class="li5" @click="provinceSelect('陕西','000')" v-bind:class="{provinceBg:porvince=='陕西'}">陕西</li>
+                    <li class="li5" @click="provinceSelect('四川','000')" v-bind:class="{provinceBg:porvince=='四川'}">四川</li>
+                    <li class="li5" @click="provinceSelect('内蒙古','000')" v-bind:class="{provinceBg:porvince=='内蒙古'}">内蒙古</li>
                 </ul>
             </div>
             <div class="dq_mes" style="margin-bottom:0.3rem;">
@@ -58,11 +58,11 @@
                     T<br>|<br>Z
                 </div>
                 <ul class="dq_r">
-                    <li class="li5" @click="provinceSelect('天津','013')" v-bind:class="{provinceBg:porvince=='天津'}">天津</li>
-                    <li class="li5" @click="provinceSelect('新疆','089')" v-bind:class="{provinceBg:porvince=='新疆'}">新疆</li>
-                    <li class="li5" @click="provinceSelect('西藏','079')" v-bind:class="{provinceBg:porvince=='西藏'}">西藏</li>
-                    <li class="li5" @click="provinceSelect('云南','086')" v-bind:class="{provinceBg:porvince=='云南'}">云南</li>
-                    <li class="li5" @click="provinceSelect('浙江','036')" v-bind:class="{provinceBg:porvince=='浙江'}">浙江</li>
+                    <li class="li5" @click="provinceSelect('天津','000')" v-bind:class="{provinceBg:porvince=='天津'}">天津</li>
+                    <li class="li5" @click="provinceSelect('新疆','000')" v-bind:class="{provinceBg:porvince=='新疆'}">新疆</li>
+                    <li class="li5" @click="provinceSelect('西藏','000')" v-bind:class="{provinceBg:porvince=='西藏'}">西藏</li>
+                    <li class="li5" @click="provinceSelect('云南','000')" v-bind:class="{provinceBg:porvince=='云南'}">云南</li>
+                    <li class="li5" @click="provinceSelect('浙江','000')" v-bind:class="{provinceBg:porvince=='浙江'}">浙江</li>
                 </ul>
             </div>
         </div>
@@ -109,7 +109,7 @@
         position: fixed;
         top:0;
         left: 0;
-        width: 100%;      
+        width: 100%;
         background: #fff;
         z-index: 3;
     }

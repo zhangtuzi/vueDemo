@@ -92,5 +92,18 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangtuzi/vueDemo.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangtuzi/vueDemo/issues"
+  },
+  "homepage": "https://github.com/zhangtuzi/vueDemo#readme"
 }
